@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru"></html>
 <meta charset="utf-8">
-<link rel="styleshet" href="input.css">
+<link rel="stylesheet" href="taska.css">
 <head>
     <title>Super Taska</title>
 </head>
 <body>
-    <button id='menu'>Click Here</button>
+    <div id='firstRound' class='display_1'>
+        <button id='menu'>Click Here</button>
+    </div>
+    <div id='secondRound' class='display_2'>
+        <input id='name'>
+        <input id='value'>
+        <select id='select'>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <input type='checkbox' id='checkbox'>
+        <button id='calculate'>Go to Calculate</button>
+    </div>
+    <div id='thirdRound' class='display_3'>
+        <p id='nameCalculator'></p>
+        <button id='plusButton'>Plus</button>
+        <span id='inputValue'></span>
+        <button id='minusButton'>Minus</button>
+    </div>
     <script src='taska.js'></script>
 </body>
